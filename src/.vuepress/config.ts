@@ -6,7 +6,7 @@ import { shikiPlugin } from "@vuepress/plugin-shiki";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/grade6/",
 
   lang: "zh-CN",
   title: "兴隆实小",
