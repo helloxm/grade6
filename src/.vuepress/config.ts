@@ -12,7 +12,7 @@ export default defineUserConfig({
   title: "兴隆实小",
 
   theme,
-
+  
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });

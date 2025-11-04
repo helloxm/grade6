@@ -8,6 +8,11 @@ export default navbar([
     icon: "arrow-forward",
     link: "/english/",
   },
+  {
+    text: "数学6",
+    icon: "arrow-forward",
+    link: "/math/",
+  },
   // {
   //   text: "其他",
   //   icon: "more-vertical",

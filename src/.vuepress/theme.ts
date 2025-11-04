@@ -13,6 +13,7 @@ export default hopeTheme({
   pageInfo: false,
   breadcrumb: false,
 
+
   // 导航栏
   navbar,
 

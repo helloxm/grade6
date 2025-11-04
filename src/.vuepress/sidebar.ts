@@ -10,14 +10,16 @@ export default sidebar({
       children: "structure",
       expanded: true,
     },
-    // {
-    //   text: "考场注意事项",
-    //   icon: "book",
-    //   prefix: "caution/",
-    //   link: "caution/",
-    //   children: "structure",
-    //   collapsible: true,
-    // },
+  ],
+  "/math/": [
+    {
+      text: "错题集",
+      icon: "folder",
+      prefix: "errorfixed/",
+      link: "errorfixed/",
+      children: "structure",
+      expanded: true,
+    },
   ],
   // "/other/": [
   //   {
