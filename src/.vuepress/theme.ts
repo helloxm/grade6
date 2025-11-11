@@ -13,7 +13,6 @@ export default hopeTheme({
   pageInfo: false,
   breadcrumb: false,
 
-
   // 导航栏
   navbar,
 
@@ -24,13 +23,12 @@ export default hopeTheme({
   footer: "默认页脚",
   displayFooter: true,
 
-  // 加密配置
-  // encrypt: {
-  //   config: {
-  //     "/final": ["cspjs"],
-  //     "/preliminary": ["cspjs"],
-  //   },
-  // },
+  //加密配置
+  encrypt: {
+    config: {
+      "/math": ["grade6"],
+    },
+  },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -119,8 +117,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard",
-        "VidStack"],
+      components: ["Badge", "VPCard", "VidStack"],
     },
 
     icon: {
